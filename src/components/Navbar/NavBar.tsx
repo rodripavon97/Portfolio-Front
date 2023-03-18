@@ -14,7 +14,7 @@ const NavBar: React.FunctionComponent<NavbarProps> = ({
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-darkinfo fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-darkblue fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <span className="text-brand" style={{ color: "#E94560" }}>

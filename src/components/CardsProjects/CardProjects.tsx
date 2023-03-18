@@ -9,7 +9,7 @@ const CardProjects: React.FC = () => {
       <section className="container">
         <section className="row g-4">
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-            <div className="card bg-darkred h-100" style={{ width: "18rem"}}>
+            <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
               <img src={Hidra} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">HidraSport</h5>
@@ -24,7 +24,7 @@ const CardProjects: React.FC = () => {
             </div>
           </article>
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkred h-100" style={{ width: "18rem"}}>
+          <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
               <img src={SoulGram} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-white">Solugram Front - Back</h5>
@@ -39,7 +39,7 @@ const CardProjects: React.FC = () => {
             </div>
           </article>
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkred h-100" style={{ width: "18rem"}}>
+          <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
               <img src={RickAndMorty} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-white">
@@ -56,7 +56,7 @@ const CardProjects: React.FC = () => {
             </div>
           </article>
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkred h-100" style={{ width: "18rem"}}>
+          <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
               <img src={FootballChamp} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-titl text-white">Footchamp</h5>
@@ -72,7 +72,7 @@ const CardProjects: React.FC = () => {
             </div>
           </article>
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkred h-100" style={{ width: "18rem"}}>
+          <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
               <img src={TShirts} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-titl text-white">Footchamp</h5>

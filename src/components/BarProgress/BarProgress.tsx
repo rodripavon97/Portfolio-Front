@@ -19,7 +19,7 @@ const BarProgress: React.FunctionComponent<BarProgressProps> = ({
                 </p>
                 <section className="progress">
                   <div
-                    className="barProgress-bar progress-bar-striped bg-darkred"
+                    className="barProgress-bar progress-bar-striped bg-darkcyan"
                     role="progressbar"
                     style={{ width: progress.level + "%" }}
                     aria-valuenow={progress.level}
