@@ -9,10 +9,10 @@ const CardProjects: React.FC = () => {
       <section className="container">
         <section className="row g-4">
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-            <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
+            <div className="card bg-darkblue border border-darkred h-100" style={{ width: "18rem"}}>
               <img src={Hidra} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">HidraSport</h5>
+                <h5 className="card-title text-center text-darkinfo">HidraSport</h5>
                 <p className="card-text text-white">
                   <li>Proyecto para la pagina de Hidrasport</li>
                   <li>
@@ -24,10 +24,10 @@ const CardProjects: React.FC = () => {
             </div>
           </article>
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
+          <div className="card bg-darkblue border border-darkred h-100" style={{ width: "18rem"}}>
               <img src={SoulGram} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title text-white">Solugram Front - Back</h5>
+                <h5 className="card-title text-center text-darkinfo">Solugram Front - Back</h5>
                 <p className="card-text text-white">
                   <li> Proyecto Final Global Learning, red social de viajes</li>
                   <li>
@@ -39,10 +39,10 @@ const CardProjects: React.FC = () => {
             </div>
           </article>
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
+          <div className="card bg-darkblue border border-darkred h-100" style={{ width: "18rem"}}>
               <img src={RickAndMorty} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title text-white">
+                <h5 className="card-title text-center text-darkinfo">
                   Rick And Morty Api-React
                 </h5>
                 <p className="card-text text-white">
@@ -56,10 +56,10 @@ const CardProjects: React.FC = () => {
             </div>
           </article>
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
+          <div className="card bg-darkblue border border-darkred h-100" style={{ width: "18rem"}}>
               <img src={FootballChamp} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-titl text-white">Footchamp</h5>
+                <h5 className="card-title text-center text-darkinfo">Footchamp</h5>
                 <p className="card-text text-white">
                   <li>Pagina para un proyecto de Torneos</li>
                   <li>
@@ -72,10 +72,10 @@ const CardProjects: React.FC = () => {
             </div>
           </article>
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkcyan h-100" style={{ width: "18rem"}}>
+          <div className="card bg-darkblue border border-darkred h-100" style={{ width: "18rem"}}>
               <img src={TShirts} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-titl text-white">Footchamp</h5>
+                <h5 className="card-title text-center text-darkinfo">TShirts Makers</h5>
                 <p className="card-text text-white">
                   <li>Pagina para ventas de camiseta - proyecto </li>
                     {" "}
