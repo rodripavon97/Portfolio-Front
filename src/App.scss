@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Poppins:wght@500&display=swap');
+
+$primary: #001E6C;
+$secondary: #035397;
+$light: #5089C6;
+$info: #1E252E;
+$white: #D8D8D8;
+$red: #E94560;
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+$color-personality: (
+    "darkblue": $primary,
+    "darkinfo":$secondary,
+    "darkcyan": $light,
+    "textwhite": $white,
+    "textdark": $info,
+    "darkred": $red
+);
+
+$theme-colors: map-merge($theme-colors, $color-personality);
+
+
+body {
+    background-color: $primary !important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='400' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1051%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(3%2c 83%2c 151%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c552.001C109.984%2c577.147%2c233.677%2c572.278%2c329.222%2c512.279C425.049%2c452.103%2c484.411%2c342.885%2c508.923%2c232.417C531.224%2c131.911%2c461.27%2c37.104%2c457.487%2c-65.777C453.043%2c-186.636%2c552.444%2c-319.851%2c484.925%2c-420.19C419.034%2c-518.109%2c270.286%2c-512.856%2c152.427%2c-519.118C52.882%2c-524.407%2c-34.901%2c-470.626%2c-133.019%2c-453.02C-246.95%2c-432.576%2c-384.714%2c-485.48%2c-470.166%2c-407.401C-554.887%2c-329.989%2c-546.31%2c-192.841%2c-543.32%2c-78.118C-540.669%2c23.615%2c-509.606%2c122.074%2c-454.143%2c207.4C-403.723%2c284.967%2c-318.569%2c325.103%2c-244.87%2c381.025C-163.926%2c442.445%2c-99.053%2c529.355%2c0%2c552.001' fill='%23024279'%3e%3c/path%3e%3cpath d='M1440 908.425C1503.845 897.413 1563.9470000000001 871.727 1613.551 830.05 1659.2359999999999 791.665 1675.942 732.592 1708.663 682.694 1748.6109999999999 621.775 1820.541 576.888 1827.1399999999999 504.338 1834.033 428.553 1804.815 342.214 1743.762 296.789 1683.2359999999999 251.75599999999997 1597.829 286.037 1522.826 277.919 1463.888 271.54 1408.946 246.183 1350.2069999999999 254.192 1284.804 263.109 1213.564 276.453 1169.982 326.028 1126.334 375.679 1127.774 448.402 1121.614 514.223 1115.733 577.069 1118.88 638.251 1135.0529999999999 699.265 1153.955 770.5740000000001 1162.341 855.654 1223.1779999999999 897.381 1284.091 939.1600000000001 1367.211 920.98 1440 908.425' fill='%230464b5'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1051'%3e%3crect width='1440' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%
+}
+
+.img-banner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+
+}
+
+.nav-item {
+    color: #D8D8D8
+}
+
+.progressHolder {
+    overflow: hidden;
+}
+
+.progress-label {
+    float: left;
+    margin: -5px 15px 15px 0;
+}
+
+.img-banner {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.img-background {
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: $red;
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
