@@ -7,9 +7,9 @@ const CardProjects: React.FC = () => {
   return (
     <>
       <section className="container">
-        <section className="row g-3 justify-content-center d-flex">
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-            <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "18rem"}}>
+        <section className="row g-3">
+          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
+            <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
               <img src={Hidra} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-darkcyan">HidraSport</h5>
@@ -23,8 +23,8 @@ const CardProjects: React.FC = () => {
               </div>
             </div>
           </article>
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "18rem"}}>
+          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
+          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
               <img src={SoulGram} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-darkcyan">Solugram Front - Back</h5>
@@ -38,8 +38,8 @@ const CardProjects: React.FC = () => {
               </div>
             </div>
           </article>
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "18rem"}}>
+          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
+          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
               <img src={RickAndMorty} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-darkcyan">
@@ -55,8 +55,8 @@ const CardProjects: React.FC = () => {
               </div>
             </div>
           </article>
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "18rem"}}>
+          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
+          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
               <img src={FootballChamp} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-darkcyan">Footchamp</h5>
@@ -71,8 +71,8 @@ const CardProjects: React.FC = () => {
               </div>
             </div>
           </article>
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
-          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "18rem"}}>
+          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
+          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
               <img src={TShirts} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-darkcyan">TShirts Makers</h5>
