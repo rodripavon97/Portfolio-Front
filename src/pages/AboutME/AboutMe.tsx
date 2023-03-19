@@ -14,7 +14,7 @@ const AboutME: React.FC = () => {
             <img
               src={Me}
               alt=""
-              className="img-fluid d-block mx-auto border border-darkred"
+              className="img-fluid d-block mx-auto border border-darkinfo border-3"
               width={300}
               height={300}
             />

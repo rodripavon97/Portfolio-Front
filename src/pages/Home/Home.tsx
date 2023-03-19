@@ -7,9 +7,8 @@ import Skills from "../Skills";
 const Home: React.FC = () => {
   return (
     <>
+      <Jumbotron />
       <section id={PATH_NAME.HOME} className="container-fluid">
-        <Jumbotron />
-
         <AboutME />
 
         <Skills />
