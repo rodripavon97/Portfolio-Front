@@ -4,23 +4,13 @@ const Jumbotron: React.FC = () => {
   return (
     // <header>
       <header className="container-fluid">
-        <div className="row"></div>
-        <div className="px-4 py-5 my-5 text-center">
-          <h1 className="display-5 fw-bold text-white">Rodrigo <span className="text-darkred">Pavon</span> </h1>
-          <div className="col-lg-6 mx-auto">
-            <p className="lead mb-4 text-white">
-              Desarrollador FrontEnd && Desarrollador FullStack Trainee
-            </p>
-            <div className=" d-sm-flex justify-content-sm-center">
-              <button
-                type="button"
-                className="btn btn-darkinfo btn-lg px-4 gap-3"
-              >
-                Primary button
-              </button>
-            </div>
-          </div>
-        </div>
+        <div className="p-5 mb-4 rounded-3">
+      <div className="container-fluid py-5">
+        <h1 className="display-5 fw-bold">Rodrigo <span className="text-secondary">Pavon Gomez </span> </h1>
+        <p className="col-md-8 fs-4">Desarrolador FrontEnd && FullStack Trainee</p>
+        <button className="btn btn-primary btn-lg" type="button">Example button</button>
+      </div>
+    </div>
       </header>
     // </header>
   );

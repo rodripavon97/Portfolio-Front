@@ -7,17 +7,14 @@ import Skills from "../Skills";
 const Home: React.FC = () => {
   return (
     <>
-      <section id={PATH_NAME.HOME}>
+      <section id={PATH_NAME.HOME} className="container-fluid">
         <Jumbotron />
-        <div className="container-fluid d-flex flex-column mt-4">
-          <AboutME />
-        </div>
-        <div className="container-fluid d-flex flex-column mt-4">
-          <Skills />
-        </div>
-        <div className="container-fluid d-flex flex-column mt-4">
-          <Projects />
-        </div>
+
+        <AboutME />
+
+        <Skills />
+
+        <Projects />
       </section>
     </>
   );

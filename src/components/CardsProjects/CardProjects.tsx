@@ -7,7 +7,7 @@ const CardProjects: React.FC = () => {
   return (
     <>
       <section className="container">
-        <section className="row g-4">
+        <section className="row g-3 justify-content-center d-flex">
           <article className="col-lg-3 col-md-6 col-12 my-3 d-flex">
             <div className="card bg-darkblue border border-darkred h-100" style={{ width: "18rem"}}>
               <img src={Hidra} className="card-img-top" alt="..." />

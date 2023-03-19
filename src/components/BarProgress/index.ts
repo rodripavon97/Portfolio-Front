@@ -1,2 +1,2 @@
-import BarProgress from "./BarProgress";
-export default BarProgress;
+import CardSkills from "./CardSkills";
+export default CardSkills;

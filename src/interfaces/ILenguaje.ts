@@ -1,4 +1,5 @@
 export interface ILenguage {
     lenguage: string
-    level: number
+    level: string
+    cantidad: number
 }

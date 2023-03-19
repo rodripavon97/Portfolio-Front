@@ -1,18 +1,16 @@
-import BarProgress from "../../components/BarProgress";
+import CardSkills from "../../components/BarProgress/CardSkills";
 import { PATH_NAME } from "../../constants/routes";
 import { lenguagesState } from "../../constants/skills";
 
 const Skills: React.FC = () => {
   return (
     <>
-      <section id={PATH_NAME.SKILLS}>
-        <section className="container-fluid">
-          <h1 className="text-center text-textwhite mt-2 display-5 fw-bold text-decoration">
-            {" "}
-            Skills
-          </h1>
-          <BarProgress barProgress={lenguagesState} />
-        </section>
+      <section id={PATH_NAME.SKILLS} className="container-fluid p-4">
+        <h1 className="text-center text-textwhite mt-2 display-5 fw-bold text-decoration">
+          {" "}
+          Skills
+        </h1>
+        <CardSkills barProgress={lenguagesState} />
       </section>
     </>
   );
