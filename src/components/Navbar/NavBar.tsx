@@ -17,8 +17,8 @@ const NavBar: React.FunctionComponent<NavbarProps> = ({
       <nav className="navbar navbar-expand-lg navbar-white bg-darkinfo fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <span className="text-brand" style={{ color: "#E94560" }}>
-              Rodrigo
+            <span className="text-brand fs-4 text-black">
+              Rodrigo FrontDEV
             </span>{" "}
           </a>
           <button
@@ -38,7 +38,7 @@ const NavBar: React.FunctionComponent<NavbarProps> = ({
           >
             <ul className="navbar-nav">
               {navLinks.map((item) => (
-                <li className="nav-item" key={item.name}>
+                <li className="nav-item text-black" key={item.name}>
                   <Link
                     activeClass="active"
                     className="nav-link"
