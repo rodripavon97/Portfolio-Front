@@ -12,25 +12,15 @@ const CardSkills: React.FunctionComponent<BarProgressProps> = ({
       <article className="row g-3">
         {barProgress.map((lenguaje, index) => (
           <section
-            className="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center"
+            className="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-0 m-0"
             key={index}
           >
-            <div
-              className="card bg-primary border border-darkinfo"
-              style={{ width: "16rem" }}
-            >
-              <img
-                src={lenguaje.level}
-                className="card-img-top rounded-circle"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title text-darkcyan text-center">{lenguaje.lenguage}</h5>
-                <p className="card-text text-white text-center ">
-                  Cantidad de proyectos {lenguaje.cantidad} 
-                </p>
-              </div>
-            </div>
+            <img
+              src={lenguaje.level}
+              className="img-fluid"
+              alt={lenguaje.lenguage}
+              style={{ width: "288px", height: "200px" }}
+            />
           </section>
         ))}
       </article>

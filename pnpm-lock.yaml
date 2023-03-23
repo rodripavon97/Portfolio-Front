@@ -5,13 +5,16 @@ specifiers:
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
   '@popperjs/core': ^2.11.6
+  '@types/file-saver': ^2.0.5
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
   '@types/react-scroll': ^1.8.6
   '@types/react-sticky': ^6.0.4
   '@vitejs/plugin-react': ^3.1.0
+  animate.css: ^4.1.1
   bootstrap: ^5.2.3
   bulma: ^0.9.4
+  file-saver: ^2.0.5
   framer-motion: ^10.2.4
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -30,8 +33,10 @@ dependencies:
   '@popperjs/core': 2.11.6
   '@types/react-scroll': 1.8.6
   '@types/react-sticky': 6.0.4
+  animate.css: 4.1.1
   bootstrap: 5.2.3_@popperjs+core@2.11.6
   bulma: 0.9.4
+  file-saver: 2.0.5
   framer-motion: 10.2.4_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -41,6 +46,7 @@ dependencies:
   react-sticky: 6.0.3_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
+  '@types/file-saver': 2.0.5
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   '@vitejs/plugin-react': 3.1.0_vite@4.1.4
@@ -1714,6 +1720,10 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
+  /@types/file-saver/2.0.5:
+    resolution: {integrity: sha512-zv9kNf3keYegP5oThGLaPk8E081DFDuwfqjtiTzm6PoxChdJ1raSuADf2YGCVIyrSynLrgc8JWv296s7Q7pQSQ==}
+    dev: true
+
   /@types/lodash.mergewith/4.6.7:
     resolution: {integrity: sha512-3m+lkO5CLRRYU0fhGRp7zbsGi6+BZj0uTVSwvcKU+nSlhjA9/QRNfuSGnD2mX6hQA7ZbmcCkzk5h4ZYGOtk14A==}
     dependencies:
@@ -1781,6 +1791,10 @@ packages:
 
   /@zag-js/focus-visible/0.2.1:
     resolution: {integrity: sha512-19uTjoZGP4/Ax7kSNhhay9JA83BirKzpqLkeEAilrpdI1hE5xuq6q+tzJOsrMOOqJrm7LkmZp5lbsTQzvK2pYg==}
+    dev: false
+
+  /animate.css/4.1.1:
+    resolution: {integrity: sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==}
     dev: false
 
   /ansi-styles/3.2.1:
@@ -1993,6 +2007,10 @@ packages:
   /escape-string-regexp/4.0.0:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
+    dev: false
+
+  /file-saver/2.0.5:
+    resolution: {integrity: sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==}
     dev: false
 
   /fill-range/7.0.1:

@@ -4,7 +4,7 @@ import Me from "../../assets/imageME.jpg";
 const AboutME: React.FC = () => {
   return (
     <section className="container-fluid p-4" id={PATH_NAME.ABOUTME}>
-      <h1 className="text-center text-textwhite mt-2 display-5 fw-bold text-decoration">
+      <h1 className="text-center text-textwhite mt-2 display-5 fw-bold">
         {" "}
         About Me
       </h1>

@@ -6,7 +6,7 @@ const Skills: React.FC = () => {
   return (
     <>
       <section id={PATH_NAME.SKILLS} className="container-fluid p-4">
-        <h1 className="text-center text-textwhite mt-2 display-5 fw-bold text-decoration">
+        <h1 className="text-center text-textwhite mt-2 display-5 fw-bold">
           {" "}
           Skills
         </h1>
