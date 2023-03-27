@@ -14,8 +14,7 @@ const AppRouter: React.FC = () => {
       <NavBar navLinks={navbarLinks} />
       <Routes>
         <Route>
-          <Route path="*" index element={<Home />} />
-          <Route path={PATH_NAME.HOME} index element={<Home />} />
+          <Route path={PATH_NAME.HOME}  element={<Home />} />
           <Route path={PATH_NAME.SKILLS} element={<Skills />} />
         </Route>
       </Routes>

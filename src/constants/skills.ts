@@ -1,18 +1,18 @@
 import { ILenguage } from "./../interfaces/ILenguaje";
-import react from "../assets/React.png"
-import mongo from "../assets/mongoDB.png"
-import node from "../assets/node.png"
-import html from "../assets/html.png"
-import css from "../assets/css3.png"
-import mui from "../assets/MUI.png"
-import bootstrap from "../assets/Bootstrap.png"
-import javascript from "../assets/JavaScript.png"
-import typescript from "../assets/typesript.png"
+// import react from "../assets/React.png"
+// import mongo from "../assets/mongoDB.png"
+// import node from "../assets/node.png"
+// import html from "../assets/html.png"
+// import css from "../assets/css3.png"
+// import mui from "../assets/MUI.png"
+// import bootstrap from "../assets/Bootstrap.png"
+// import javascript from "../assets/JavaScript.png"
+// import typescript from "../assets/typesript.png"
 export const lenguage = {
   REACT: "React",
   MONGODB: "Mongo DB",
   EXPRESS: "Express",
-  NODE: "NODE",
+  NODE: "Node JS",
   HTML: "HTML",
   CSS: "CSS",
   MUI: "Material UI",
@@ -23,15 +23,15 @@ export const lenguage = {
 };
 
 export const lenguaje = {
-  REACT: react,
-  MONGODB: mongo,
-  NODE: node,
-  HTML: html,
-  CSS: css,
-  MUI: mui,
-  BOOTSTRAP: bootstrap,
-  JAVASCRIPT: javascript,
-  TYPESCRIPT : typescript
+  REACT: "mdi:react",
+  MONGODB: "bxl:mongodb",
+  NODE: "mdi:nodejs",
+  HTML: "mdi:language-html5",
+  CSS: "mdi:language-css3",
+  MUI: "mdi:material-ui",
+  BOOTSTRAP: "mdi:bootstrap",
+  JAVASCRIPT: "mdi:language-javascript",
+  TYPESCRIPT : "mdi:language-typescript"
 };
 
 export const cantidad = {

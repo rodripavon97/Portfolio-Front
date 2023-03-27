@@ -1,4 +1,5 @@
 import { ILenguage } from "../../interfaces/ILenguaje";
+import { Icon } from "@iconify/react";
 
 export interface BarProgressProps {
   barProgress: ILenguage[];
@@ -12,15 +13,21 @@ const CardSkills: React.FunctionComponent<BarProgressProps> = ({
       <article className="row g-3">
         {barProgress.map((lenguaje, index) => (
           <section
-            className="col-12 col-md-6 col-lg-3 d-flex justify-content-center p-0 m-0"
+            className="col-12 col-md-6 col-lg-3 my-3 d-flex justify-content-center p-0 m-0"
             key={index}
           >
-            <img
-              src={lenguaje.level}
-              className="img-fluid"
-              alt={lenguaje.lenguage}
-              style={{ width: "288px", height: "200px" }}
-            />
+            <div className="card h-100 bg-darkblue border border-darkinfo" style={{ width: "16rem" }}>
+              <Icon
+                icon={lenguaje.level}
+                style={{ color: "#B6EADA", fontSize: 125, textAlign:"center"}}
+              />
+
+              <div className="card-body">
+                <h4 className="card-title text-white">
+                  {lenguaje.lenguage}
+                </h4>
+              </div>
+            </div>
           </section>
         ))}
       </article>
