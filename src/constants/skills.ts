@@ -1,13 +1,5 @@
 import { ILenguage } from "./../interfaces/ILenguaje";
-// import react from "../assets/React.png"
-// import mongo from "../assets/mongoDB.png"
-// import node from "../assets/node.png"
-// import html from "../assets/html.png"
-// import css from "../assets/css3.png"
-// import mui from "../assets/MUI.png"
-// import bootstrap from "../assets/Bootstrap.png"
-// import javascript from "../assets/JavaScript.png"
-// import typescript from "../assets/typesript.png"
+
 export const lenguage = {
   REACT: "React",
   MONGODB: "Mongo DB",

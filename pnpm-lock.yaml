@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@chakra-ui/react': ^2.5.1
+  '@emailjs/browser': ^3.10.0
   '@emotion/react': ^11.10.6
   '@emotion/styled': ^11.10.6
   '@fortawesome/fontawesome-svg-core': ^6.4.0
@@ -34,6 +35,7 @@ specifiers:
 
 dependencies:
   '@chakra-ui/react': 2.5.1_4u6c4cemsyeofa6epxvhadxxcy
+  '@emailjs/browser': 3.10.0
   '@emotion/react': 11.10.6_pmekkgnqduwlme35zpnqhenc34
   '@emotion/styled': 11.10.6_oouaibmszuch5k64ms7uxp2aia
   '@fortawesome/fontawesome-svg-core': 6.4.0
@@ -1356,6 +1358,11 @@ packages:
     dependencies:
       '@chakra-ui/system': 2.5.1_xqp3pgpqjlfxxa3zxu4zoc4fba
       react: 18.2.0
+    dev: false
+
+  /@emailjs/browser/3.10.0:
+    resolution: {integrity: sha512-pregUOBkSjjctQoAgn8DcSaeY4ypHjXAJEzWlJysM3RkQXw1ulavfHva3YYeAkxfJ7qbIhpyvRmhyQlgNG4GVg==}
+    engines: {node: '>=14.0.0'}
     dev: false
 
   /@emotion/babel-plugin/11.10.6:

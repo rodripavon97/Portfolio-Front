@@ -1,5 +1,6 @@
 import { ILink } from "../../interfaces/ILink";
 import { Link, animateScroll as scroll } from "react-scroll";
+import 'animate.css'
 
 export interface NavbarProps {
   navLinks: ILink[];
@@ -17,9 +18,9 @@ const NavBar: React.FunctionComponent<NavbarProps> = ({
       <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-darkinfo">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <span className="text-brand fs-4 text-white">
-              Rodrigo FrontDEV
-            </span>{" "}
+            <h5 className="text-brand fw-bold text-white animate__animated animate__backInDown">
+            Rodrigo Portfolio
+            </h5>{" "}
           </a>
           <button
             className="navbar-toggler"

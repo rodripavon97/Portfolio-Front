@@ -1,3 +1,4 @@
+import React from "react";
 import CardSkills from "../../components/BarProgress/CardSkills";
 import { PATH_NAME } from "../../constants/routes";
 import { lenguagesState } from "../../constants/skills";

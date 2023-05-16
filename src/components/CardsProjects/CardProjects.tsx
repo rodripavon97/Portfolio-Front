@@ -1,93 +1,46 @@
-import Hidra from "../../assets/Hidra.png";
-import RickAndMorty from "../../assets/RickAndMorty.png";
-import SoulGram from "../../assets/Soulgram.jpg";
-import FootballChamp from "../../assets/Footchamp.png";
-import TShirts from "../../assets/Tshits.png"
-const CardProjects: React.FC = () => {
+import React from "react";
+import { IProject } from "../../interfaces/IProject";
+import { Link } from "react-router-dom";
+
+export interface ProjectsProps {
+  projects: IProject[];
+}
+const CardProjects: React.FunctionComponent<ProjectsProps> = ({
+  projects,
+}: ProjectsProps) => {
   return (
     <>
-      <section className="container">
+      <main className="container">
         <section className="row g-3">
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
-            <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
-              <img src={Hidra} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title text-center text-darkcyan">HidraSport</h5>
-                <p className="card-text text-white">
-                  <li>Proyecto para la pagina de Hidrasport</li>
-                  <li>
-                    Proyecto basado con React y Bootstrap como framework de
-                    estilado, uso de redux con conexion a backend
-                  </li>
-                </p>
+          {projects.map((project, index) => (
+            <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
+              <div
+                className="card bg-darkblue border border-darkinfo h-100"
+                style={{ width: "16rem" }}
+                key={index}
+              >
+                <img
+                  src={project.imageProjects}
+                  className="card-img-top"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title fw-bold text-center text-darkcyan">
+                    {project.titleProject}
+                  </h5>
+                  <p className="card-text text-white">
+                    <li>{project.proyectMotive}</li>
+                    <li>{project.description}</li>
+                  </p>
+                </div>
+                <Link to={project.linkProject} className="btn btn-darkcyan">
+                  Ir al proyecto
+                </Link>
               </div>
-            </div>
-          </article>
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
-          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
-              <img src={SoulGram} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title text-center text-darkcyan">Solugram Front - Back</h5>
-                <p className="card-text text-white">
-                  <li> Proyecto Final Global Learning, red social de viajes</li>
-                  <li>
-                    Proyecto basado con React y Material Ui, Utilizacion de Node
-                    Js, Express y Mongo DB para el backend{" "}
-                  </li>
-                </p>
-              </div>
-            </div>
-          </article>
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
-          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
-              <img src={RickAndMorty} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title text-center text-darkcyan">
-                  Rick And Morty Api-React
-                </h5>
-                <p className="card-text text-white">
-                  <li> Proyecto personal para aprender Axios</li>
-                  <li>
-                    Proyecto basado con React y Bulma como framework de
-                    estilado, conexion a api a traves de Axios{" "}
-                  </li>
-                </p>
-              </div>
-            </div>
-          </article>
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
-          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
-              <img src={FootballChamp} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title text-center text-darkcyan">Footchamp</h5>
-                <p className="card-text text-white">
-                  <li>Pagina para un proyecto de Torneos</li>
-                  <li>
-                    {" "}
-                    Proyecto basado con Angular y Bulma como framework de
-                    estilado, mySql con node y Express y la conexion httpStatus{" "}
-                  </li>
-                </p>
-              </div>
-            </div>
-          </article>
-          <article className="col-lg-3 col-md-6 col-12 my-3 d-flex justify-content-center">
-          <div className="card bg-darkblue border border-darkinfo h-100" style={{ width: "16rem"}}>
-              <img src={TShirts} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title text-center text-darkcyan">TShirts Makers</h5>
-                <p className="card-text text-white">
-                  <li>Pagina para ventas de camiseta - proyecto </li>
-                    {" "}
-                    <li>
-                    Proyecto basado con HTML, CSS Y Javascript
-                  </li>
-                </p>
-              </div>
-            </div>
-          </article>
+            </article>
+          ))}
         </section>
-      </section>
+      </main>
     </>
   );
 };

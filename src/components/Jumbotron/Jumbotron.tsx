@@ -1,16 +1,14 @@
-import { saveAs } from "file-saver";
+
 import "animate.css";
-import mePerson from "../../assets/image-modified.png";
+
 import bannerImg from "../../assets/Coding-vs-programming.jpg";
 
 const Jumbotron: React.FC = () => {
-  const saveManual = () => {
-    saveAs("../../assets/RodrigoPavonCV.pdf", "rodrigopavonCV.pdf");
-  };
+
 
   return (
-    // <header>
-    <header className="container-fluid">
+ 
+    <header className="container-fluid bg-darkinfo">
       <section className="row row-cols-lg-2 row-cols-sm-2">
         <article className="col-md-12 col-sm-12 col-lg-6 d-flex align-items-center">
           <div className="container-fluid">
@@ -38,13 +36,15 @@ const Jumbotron: React.FC = () => {
                 aprender y conocer nuevos caminos y lenguajes que fortalezca mis
                 aptitudes
               </p>
+              <a href="../../assets/RodrigoPavonCV.pdf" download >
               <button
                 className="btn btn-info btn-lg"
                 type="button"
-                onClick={saveManual}
               >
                 Download CV
               </button>
+
+              </a>
             </div>
           
         </article>

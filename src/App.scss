@@ -70,4 +70,10 @@ nav{
     border-top:3px solid $info;
 }
 
+.form-control {
+	border: 1px solid #B6EADA;
+	&:focus {
+		box-shadow: 0 0 0 0.1rem #E94560;
+	}
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
