@@ -1,6 +1,7 @@
 import { ILink } from "../../interfaces/ILink";
 import { Link, animateScroll as scroll } from "react-scroll";
 import 'animate.css'
+import { Icon } from "@iconify/react";
 
 export interface NavbarProps {
   navLinks: ILink[];
@@ -31,10 +32,10 @@ const NavBar: React.FunctionComponent<NavbarProps> = ({
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+           <Icon icon="game-icons:hamburger-menu" color="#b6eada" />
           </button>
           <div
-            className="collapse navbar-collapse ms-1 me-1 justify-content-md-center  "
+            className="collapse navbar-collapse justify-content-center"
             id="navbarNav"
           >
             <ul className="navbar-nav">

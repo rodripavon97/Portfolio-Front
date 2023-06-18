@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
               <label className="form-label text-white">Name</label>
               <input
                 type="text"
-                className="form-control bg-darkblue text-white h"
+                className="form-control bg-darkblue text-white "
                 id="formGroupExampleInput"
                 placeholder="Example input placeholder"
                 name="user_name"

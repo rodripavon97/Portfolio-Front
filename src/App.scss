@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Poppins:wght@500&display=swap');
 
-$primary: #03001C;
-$secondary: #301E67;
-$light: #5B8FB9;
-$info: #B6EADA;
-$white: #D8D8D8;
+$primary: #080708;
+$secondary: #094D92;
+$light: #A3333D;
+$info: #086788;
+$white: #EFF1F3;
 $red: #E94560;
 
 
@@ -71,12 +71,17 @@ nav{
 }
 
 .form-control {
-	border: 1px solid #B6EADA;
+	border-color: #094D92 !important;
 	&:focus {
-		box-shadow: 0 0 0 0.1rem #E94560;
+		box-shadow: 0 0 0 0.1rem #086788 !important;
 	}
+    
 }
 .icon-efect:hover {
     opacity: 0.5;
 }
+
+
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";

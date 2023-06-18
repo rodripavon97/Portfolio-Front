@@ -17,7 +17,7 @@ const SocialMedia: React.FunctionComponent<SocialMediaProps> = ({
           <Link  to={socialmedia.link} key={index}>
             <Icon
               icon={socialmedia.icon}
-              color="#5b8fb9"
+              color="#A3333D"
               style={{ fontSize: 30 }}
               className="icon-efect m-2"
             />

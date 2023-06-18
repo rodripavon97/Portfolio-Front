@@ -33,7 +33,7 @@ const CardProjects: React.FunctionComponent<ProjectsProps> = ({
                     <li>{project.description}</li>
                   </p>
                 </div>
-                <Link to={project.linkProject} className="btn btn-darkcyan">
+                <Link to={project.linkProject} className="btn btn-info">
                   Ir al proyecto
                 </Link>
               </div>

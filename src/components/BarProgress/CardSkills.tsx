@@ -1,7 +1,7 @@
 import React from "react";
 import { ILenguage } from "../../interfaces/ILenguaje";
 import { Icon } from "@iconify/react";
-
+import "../BarProgress/CardSkills.scss"
 export interface BarProgressProps {
   barProgress: ILenguage[];
 }
@@ -26,7 +26,7 @@ const CardSkills: React.FunctionComponent<BarProgressProps> = ({
                   <Icon
                     icon={lenguaje.level}
                     style={{
-                      color: "#B6EADA",
+                      color: "#094D92",
                       fontSize: 110,
                       textAlign: "center",
                     }}
